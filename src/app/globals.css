@@ -2,20 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d7d7d7;
+}
+
+.clip-diagonal-left {
+  clip-path: polygon(0 0, 45% 0, 35% 100%, 0 100%);
+}
+.clip-diagonal-right {
+  clip-path: polygon(45% 0, 100% 0, 100% 100%, 35% 100%);
+}
+
+.bg-image {
+  background-image: url("/assests/bg.png");
+}
+.letter-space {
+  letter-spacing: 5px;
+}
+.portfolio-img {
+  background-image: url("/assests/portfolio.png");
+  background-color: #000000;
+  object-fit: cover;
 }
