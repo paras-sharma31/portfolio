@@ -5,7 +5,7 @@ export default function Profile() {
   const socialIcons = [
     {
       icon: "/assests/email.png",
-      link: "sharmaparas388@gmail.coms",
+      link: "sharmaparas388@gmail.com",
     },
     {
       icon: "/assests/github.png",

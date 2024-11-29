@@ -12,13 +12,13 @@ export default function Bannner() {
           </div>
           <div className="absolute inset-0 w-full h-full bg-black clip-diagonal-right">
             <Header />
-            <div className="flex justify-center pl-10  h-[400px] ">
+            <div className="flex justify-center ml-40 mt-28 h-[508px] ">
               <Image
                 src={"/assests/profile.png"}
                 alt="profile-img"
                 width={100}
                 height={100}
-                className="w-[200px]"
+                className="w-[300px]"
               />
             </div>
           </div>
